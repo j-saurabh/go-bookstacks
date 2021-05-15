@@ -28,8 +28,6 @@ func router() *mux.Router {
 
 func main() {
 
-        //http.HandleFunc("/",handler)
-
         rtr := router()
 
         err := http.ListenAndServe(":5000",rtr)
@@ -38,11 +36,4 @@ func main() {
 
                 panic(err.Error())
         }
-}
-
-
-func handler(w http.ResponseWriter, r *http.Request) {
-
-	fmt.Fprintf(w,"Hello world")
-
 }
