@@ -1,6 +1,6 @@
 FROM golang:1.16
 
-LABEL maintainer="Saurabh Joshi <saurabh2226@gmail.com>"
+LABEL maintainer="Saurabh Joshi"
 
 RUN mkdir /app
 
