@@ -16,6 +16,6 @@ Once the project is cloned, run the dockerfile directly.
 
 Run the below commands to run the project through dockerfile.
 
-```docker build -t my-go-app``` 
+```docker build -t my-go-app``` </br>
 ```docker run -d -p 5000:5000 my-go-app```
 
