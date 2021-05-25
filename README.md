@@ -12,7 +12,7 @@ Then, run ./bookstacks and check for the output in localhost:5000/assets/
 
 <h2> Added Dockerfile to the project </h2>
 
-Once the project is cloned, run the dockerfile directly. 
+Once the project is cloned, you can run the dockerfile directly. 
 
 Run the below commands to run the project through dockerfile.
 
