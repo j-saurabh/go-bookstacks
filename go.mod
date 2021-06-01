@@ -1,4 +1,4 @@
-module bookstack
+module github.com/j-saurabh/go-bookstacks
 
 go 1.16
 
