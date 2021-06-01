@@ -1,7 +1,6 @@
 package main
 
 import(
-	"fmt"
 	"net/http"
 	"github.com/gorilla/mux"
 )
@@ -10,8 +9,6 @@ import(
 func router() *mux.Router {
 
 	rtr := mux.NewRouter()
-
-	rtr.HandleFunc("/test", handler).Methods("GET")
 
 	statFileDir := http.Dir("./assets/")
 
