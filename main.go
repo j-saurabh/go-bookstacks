@@ -10,15 +10,15 @@ func router() *mux.Router {
 
 	rtr := mux.NewRouter()
 
-	statFileDir := http.Dir("./assets/")
+	statFileDir := http.Dir("./books/")
 
-	statFileHandler := http.StripPrefix("/assets/",http.FileServer(statFileDir))
+	statFileHandler := http.StripPrefix("/books/",http.FileServer(statFileDir))
 
-	rtr.PathPrefix("/assets/").Handler(statFileHandler).Methods("GET")
+	rtr.PathPrefix("/books/").Handler(statFileHandler).Methods("GET")
 
 
-	rtr.HandleFunc("/book", getBooksHandler).Methods("GET")
-	rtr.HandleFunc("/book", createBookHandler).Methods("POST")
+	rtr.HandleFunc("/list", getBooksHandler).Methods("GET")
+	rtr.HandleFunc("/list", createBookHandler).Methods("POST")
 
 	return rtr
 }
