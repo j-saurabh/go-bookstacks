@@ -21,5 +21,6 @@ Run the below commands to run the project through dockerfile.
 ```docker build -t my-go-app .``` </br>
 ```docker run -d -p 5000:5000 my-go-app```
 
+Then, go to ```localhost:5000/assets/``` to check the output. 
 
 Furthermore, will add database to it so that it can store the book names. 
