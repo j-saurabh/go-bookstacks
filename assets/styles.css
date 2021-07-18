@@ -1,0 +1,12 @@
+h1 {
+    color : teal;
+    text-align : center;
+  }
+  
+  body 
+  {
+    padding : 1em;
+    margin : 0 auto;
+    max-width : 30em;
+    
+  }
