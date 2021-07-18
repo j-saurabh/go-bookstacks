@@ -10,7 +10,7 @@ To see how this goes, run ```$go build``` in the folder where all the code files
 
 The $go build will create a binary with the name of the module. (Say, bookstacks)
 
-Then, run ./bookstacks and check for the output in localhost:5000/assets/
+Then, run ./bookstacks and check for the output in ```localhost:5000/assets/```
 
 <h2> Added Dockerfile to the project </h2>
 
