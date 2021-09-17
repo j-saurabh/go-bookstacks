@@ -23,4 +23,9 @@ Run the below commands to run the project through dockerfile.
 
 Then, go to ```localhost:5000/assets/``` to check the output. 
 
+<h2> Added Jenkinsfile </h2>
+
+Jenkinsfile which has the docker commands will run and check if the build succeeds.
+First, it clones this repository and then does the dockerizing part. 
+
 Furthermore, will add database to it so that it can store the book names. 
