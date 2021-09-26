@@ -1,7 +1,7 @@
 # go-bookstacks
 
 A simple golang service that I have written for learning more about golang. You can add books either you have read, or TBR. 
-It is sort of a basic as of now. As I get to know more stuff, I will keep adding to it. 
+It is sort of a basic as of now. But I will keep adding to it. 
 
 It has 2 fields : book name and author and it lists the already added books on the top. 
 
@@ -29,4 +29,4 @@ Jenkinsfile which has the docker commands will run and check if the build succee
 First, it clones this repository and then does the dockerizing part. 
 
 
-
+Create a pull request or an issue if there is anything you can contribute to this project.
